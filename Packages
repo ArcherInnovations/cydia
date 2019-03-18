@@ -1,13 +1,38 @@
+Package: com.archerinnovations.hyperdock
+Name: HyperDock
+Depends: mobilesubstrate
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Description: An example package for testing out our personal Cydia repository
+Depiction: https://archerinnovations.github.io/depictions/?p=com.archerinnovations.hyperdock
+Maintainer: Archer <yoyoalamo@gmail.com>
+Author: Archer <yoyoalamo@gmail.com>
+Section: Widgets
+
 Package: com.archerinnovations.newpackage
 Version: 2.0.0-1
 Section: Tweaks
-Maintainer: Archer <yoyoalamo@gmail.com@gmail.com>
-Depends: firmware (>0.0)
+Maintainer: Archer <yoyoalamo@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: ./debs/com.archerinnovations.hyperdock.deb
+Filename: ./debs/com.archerinnovations.newpackage_2.0.0-1_iphoneos-arm.deb
 Size: 854
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: test
-Name: HyperDock
-Author: Archer <yoyoalamo@gmail.com@gmail.com>
-Depiction: https://archerinnovations.github.io/cydia/depictions/?p=com.archerinnovations.hyperdock
+Description: This is a sample new package. Firmware should be greater than 7.0
+Name: New Package
+Author: Archer <yoyoalamo@gmail.com>
+Depiction: https://archerinnovations.github.io/cydia/depictions/?p=com.archerinnovations.newpackage
+
+Package: com.archerinnovations.oldpackage
+Version: 1.0.0-1
+Section: Tweaks
+Maintainer: Archer <yoyoalamo@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.archerinnovations.oldpackage_1.0.0-1_iphoneos-arm.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: This is a sample old package. Firmware should be lower than 7.0
+Name: Old Package
+Author: Archer <yoyoalamo@gmail.com>
+Depiction: https://archerinnovations.github.io/cydia/depictions/?p=com.archerinnovations.oldpackage
