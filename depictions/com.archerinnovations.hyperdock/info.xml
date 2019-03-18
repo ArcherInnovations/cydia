@@ -1,0 +1,38 @@
+<package>
+	<id>com.archerinnovations.hyperdock</id>
+	<name>HyperDock</name>
+	<version>1.0.0-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>0.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>xenhtml</package>
+	</dependencies>
+	<shortDescription>The most customizeable dock for any theme.</shortDescription>
+	<descriptionlist>
+		<description>The most customizeable dock for any theme.<br> Customizations: <br> 1. Color <br> 2. Size(height and width)<br> 3. Opacity/Translucency<br> 4. Location(anywhere)<br> 5. Corner Roundness<br> <br> Get the perfect dock without the annoyances of the ipad dock animations and the incompatibilities with Exsto that many dock replacements have. <br> I recommend using a tweak such as MiDevice or Springtomize4 to get the amount of icons you'd like and possibly for spacing. I use MiDevice with 7 icons in the dock with 1 blank icon on either side from BlankIcons to create a compact 5 icon dock.</description>
+		<description></description>
+		<description></description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>This shows some of the possiblities and customizations for HyperDock.</description>
+			<video width="320" height="240" controls>
+  <source src="preview.mp4" type="video/mp4">
+  Oops, something went wrong :/
+</video>
+		</screenshot>				
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Contact the Developer</name>
+			<url>https://www.reddit.com/user/ArcherInnovations</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
