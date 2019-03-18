@@ -1,0 +1,13 @@
+Package: com.archerinnovations.newpackage
+Version: 2.0.0-1
+Section: Tweaks
+Maintainer: Archer <yoyoalamo@gmail.com@gmail.com>
+Depends: firmware (>0.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.archerinnovations.hyperdock.deb
+Size: 854
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+Description: test
+Name: HyperDock
+Author: Archer <yoyoalamo@gmail.com@gmail.com>
+Depiction: https://archerinnovations.github.io/cydia/depictions/?p=com.archerinnovations.hyperdock
