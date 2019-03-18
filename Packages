@@ -1,15 +1,29 @@
+Package: com.archerinnovations.repoicons
+Name: RepoIcons
+Depends:
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Description: Repo Icons
+Filename: ./debs/com.archerinnovations.repoicons_1.0.0-1_iphoneos-arm.deb
+MD5sum: 32b39ff3acbaabf03bfd138bc49ad6df
+Size: 281106
+Depiction: https://archerinnovations.github.io/depictions/?p=com.archerinnovations.repoicons
+Maintainer: Archer <yoyoalamo@gmail.com>
+Author: Archer <yoyoalamo@gmail.com>
+
 Package: com.archerinnovations.hyperdock
 Name: HyperDock
-Depends: mobilesubstrate
+Depends:
 Version: 1.0.0-1
 Architecture: iphoneos-arm
 Description: An example package for testing out our personal Cydia repository
 Filename: ./debs/com.archerinnovations.hyperdock_1.0.0-1_iphoneos-arm.deb
-MD5sum: a25729597d41a60c5d93187ab973253e
-Size: 2120
+MD5sum: 0e7520f73e4cf7e43ffcbdc2feadb436
+Size: 2106
 Depiction: https://archerinnovations.github.io/depictions/?p=com.archerinnovations.hyperdock
 Maintainer: Archer <yoyoalamo@gmail.com>
 Author: Archer <yoyoalamo@gmail.com>
+Section: Widgets
 
 Package: com.archerinnovations.newpackage
 Version: 2.0.0-1

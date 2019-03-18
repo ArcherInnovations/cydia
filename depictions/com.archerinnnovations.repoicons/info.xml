@@ -1,0 +1,31 @@
+<package>
+	<id>com.archerinnovations.repoicons</id>
+	<name>RepoIcons</name>
+	<version>1.0.0-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>0.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+	</dependencies>
+	<shortDescription>Repo Icons</shortDescription>
+	<descriptionlist>
+		<description>repoicons</description>
+		<description></description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+		</screenshot>				
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>Contact the Developer</name>
+			<url>https://www.reddit.com/user/ArcherInnovations</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>

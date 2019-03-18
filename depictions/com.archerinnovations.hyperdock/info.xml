@@ -8,7 +8,6 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>xenhtml</package>
 	</dependencies>
 	<shortDescription>The most customizeable dock for any theme.</shortDescription>
 	<descriptionlist>
