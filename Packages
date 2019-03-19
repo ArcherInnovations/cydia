@@ -1,7 +1,7 @@
 Package: com.archerinnovations.repoicons
 Name: RepoIcons
 Depends:
-Version: 1.0.0-1
+Version: 1.0
 Architecture: iphoneos-arm
 Description: Repo Icons
 Filename: ./debs/com.archerinnovations.repoicons_1.0.0-1_iphoneos-arm.deb
@@ -16,7 +16,7 @@ Author: Archer <yoyoalamo@gmail.com>
 Package: com.archerinnovations.hyperdock
 Name: HyperDock
 Depends:
-Version: 1.0.0-1
+Version: 1.0
 Architecture: iphoneos-arm
 Description: An example package for testing out our personal Cydia repository
 Filename: ./debs/com.archerinnovations.hyperdock_1.0.0-1_iphoneos-arm.deb
