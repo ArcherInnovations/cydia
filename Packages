@@ -6,6 +6,8 @@ Architecture: iphoneos-arm
 Description: Repo Icons
 Filename: ./debs/com.archerinnovations.repoicons_1.0.0-1_iphoneos-arm.deb
 MD5sum: 250824c4f537ea31aff58ae3978d8349
+SHA1: e949157dbf8bab89029ca256e5c5f2c97ccce3e0
+SHA256: 8ba405f3c2d68fda6df7e421630ea9e13cc4aa5a7306f3ffa15232c157b4badd
 Size: 281024
 Depiction: https://archerinnovations.github.io/depictions/?p=com.archerinnovations.repoicons
 Maintainer: Archer <yoyoalamo@gmail.com>
@@ -19,6 +21,8 @@ Architecture: iphoneos-arm
 Description: An example package for testing out our personal Cydia repository
 Filename: ./debs/com.archerinnovations.hyperdock_1.0.0-1_iphoneos-arm.deb
 MD5sum: 5572c1ba77cf553be8a45670aa8e4142
+SHA256: aa9181fa3cb2682059f3800c95eff4d9ded7e4aa2dac5dda02bb5c1c78dd5267
+SHA1: 4dcf258f57e83db8ef6de3038221a8b4c4c29155
 Size: 2102
 Depiction: https://archerinnovations.github.io/depictions/?p=com.archerinnovations.hyperdock
 Maintainer: Archer <yoyoalamo@gmail.com>
