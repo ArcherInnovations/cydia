@@ -8,11 +8,11 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-	<package>none<package>
+		<package>none</package>
 	</dependencies>
 	<shortDescription>Rad Dad Repo Icons</shortDescription>
 	<descriptionlist>
-		<description>Rad Repo Icons</description>
+		<description><![CDATA[Repo Icons...<br/>...<br/>ya dig?]]><description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -20,12 +20,12 @@
 			<image>cydia.jpg</image>
 		</screenshot>		
 		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<description>Screenshots Coming S00n!</description>
 			<image>cydia.jpg</image>
 		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>First Release</change>
+		<change>Initial Release</change>
 	</changelog>
 	<links>
 		<link>
