@@ -7,19 +7,16 @@
 			<miniOS>7.0</miniOS>
 		</firmware>
 	</compatibility>
-	<dependencies>
-	</dependencies>
 	<shortDescription>Rad Dad Repo Icons</shortDescription>
 	<descriptionlist>
 		<description>Rad icons for a rad repo</description>
-		<description>It has more description lines.</description>
 	</descriptionlist>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
 	<links>
 		<link>
-			<name>Donate? <3</name>
+			<name>Donate?</name>
 			<url>https://paypal.me/archerinnovations</url>
 			<iconclass>fa fa-paypal</iconclass>
 		</link>
