@@ -4,25 +4,34 @@
 	<version>1.0</version>
 	<compatibility>
 		<firmware>
-			<miniOS>9.0</miniOS>
-			<maxiOS>12.1.2<maxiOS>
+			<miniOS>7.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-	<package>repoicons</package>
+		<package>xenhtml</package>
 	</dependencies>
+	<shortDescription>This is the most customizeabledock for any theme.</shortDescription>
 	<descriptionlist>
-		<description><![CDATA[The most customizeable dock for any theme.<br> Customizations: <br> 1. Color <br> 2. Size(height and width)<br> 3. Opacity/Translucency<br> 4. Location(anywhere)<br> 5. Corner Roundness<br> <br> Get the perfect dock without the annoyances of the ipad dock animations and the incompatibilities with Exsto that many dock replacements have. <br> I recommend using a tweak such as MiDevice or Springtomize4 to get the amount of icons you'd like and possibly for spacing. I use MiDevice with 7 icons in the dock with 1 blank icon on either side from BlankIcons to create a compact 5 icon dock.]]></description>
+		<description><![CDATA[The most customizeable dock for any theme.<br/> Customizations: <br/> 1. Color <br/> 2. Size(height and width)<br/> 3. Opacity/Translucency<br/> 4. Location(anywhere)<br/> 5. Corner Roundness<br/> <br>/ Get the perfect dock without the annoyances of the ipad dock animations and the incompatibilities with Exsto that many dock replacements have. <br/> I recommend using a tweak such as MiDevice or Springtomize4 to get the amount of icons you'd like and possibly for spacing. I use MiDevice with 7 icons in the dock with 1 blank icon on either side from BlankIcons to create a compact 5 icon dock.]]></description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<video width="320" height="240" controls>
-  <source src="preview.mp4" type="video/mp4">
-  Oops, something went wrong :/
-</video>
-		</screenshot>				
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
 	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
 </package>
