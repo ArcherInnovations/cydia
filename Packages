@@ -15,7 +15,7 @@ Author: Archer <yoyoalamo@gmail.com>
 
 Package: com.archerinnovations.hyperdock
 Name: HyperDock
-Depends:
+Depends: com.archerinnovations.repoicons
 Version: 1.0
 Architecture: iphoneos-arm
 Description: An example package for testing out our personal Cydia repository
