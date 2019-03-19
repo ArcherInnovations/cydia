@@ -20,9 +20,9 @@ Version: 1.0
 Architecture: iphoneos-arm
 Description: An example package for testing out our personal Cydia repository
 Filename: ./debs/com.archerinnovations.hyperdock_1.0_iphoneos-arm.deb
-MD5sum: 5572c1ba77cf553be8a45670aa8e4142
-SHA256: aa9181fa3cb2682059f3800c95eff4d9ded7e4aa2dac5dda02bb5c1c78dd5267
-SHA1: 4dcf258f57e83db8ef6de3038221a8b4c4c29155
+MD5sum: 9aead4fa85c48b6613248dc59ee49e23
+SHA256: 2909bfe2a67ef2e202c61ddb126909f2766deb4d32fd84a536e62edc22901c84
+SHA1: 42935da96946128e5b9256f370ae193ef398075c
 Size: 2102
 Depiction: https://archerinnovations.github.io/depictions/?p=com.archerinnovations.hyperdock
 Maintainer: Archer <yoyoalamo@gmail.com>
