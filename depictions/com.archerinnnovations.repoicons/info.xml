@@ -11,6 +11,16 @@
 	<descriptionlist>
 		<description>Rad icons for a rad repo</description>
 	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>This is a description for screenshot 1. It's Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>This is a description for screenshot 2. It's another Cydia!</description>
+			<image>cydia.jpg</image>
+		</screenshot>		
+	</screenshots>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>
@@ -18,7 +28,7 @@
 		<link>
 			<name>Donate?</name>
 			<url>https://paypal.me/archerinnovations</url>
-			<iconclass>fa fa-paypal</iconclass>
+			<iconclass>fa fa-reddit</iconclass>
 		</link>
 	</links>
 </package>
