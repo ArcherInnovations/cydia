@@ -4,14 +4,15 @@
 	<version>1.0</version>
 	<compatibility>
 		<firmware>
-			<miniOS>0.0</miniOS>
+			<miniOS>9.0</miniOS>
+			<maxiOS>12.1.2<maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-	<package>com.archerinnovations.repoicons</package>
+	<package>repoicons</package>
 	</dependencies>
 	<descriptionlist>
-		<description>The most customizeable dock for any theme.<br> Customizations: <br> 1. Color <br> 2. Size(height and width)<br> 3. Opacity/Translucency<br> 4. Location(anywhere)<br> 5. Corner Roundness<br> <br> Get the perfect dock without the annoyances of the ipad dock animations and the incompatibilities with Exsto that many dock replacements have. <br> I recommend using a tweak such as MiDevice or Springtomize4 to get the amount of icons you'd like and possibly for spacing. I use MiDevice with 7 icons in the dock with 1 blank icon on either side from BlankIcons to create a compact 5 icon dock.</description>
+		<description><![CDATA[The most customizeable dock for any theme.<br> Customizations: <br> 1. Color <br> 2. Size(height and width)<br> 3. Opacity/Translucency<br> 4. Location(anywhere)<br> 5. Corner Roundness<br> <br> Get the perfect dock without the annoyances of the ipad dock animations and the incompatibilities with Exsto that many dock replacements have. <br> I recommend using a tweak such as MiDevice or Springtomize4 to get the amount of icons you'd like and possibly for spacing. I use MiDevice with 7 icons in the dock with 1 blank icon on either side from BlankIcons to create a compact 5 icon dock.]]></description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
