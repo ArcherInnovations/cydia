@@ -8,6 +8,7 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
+	<package>com.archerinnovations.repoicons</package>
 	</dependencies>
 	<shortDescription>The most customizeable dock for any theme.</shortDescription>
 	<descriptionlist>
