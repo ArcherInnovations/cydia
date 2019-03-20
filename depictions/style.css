@@ -1,6 +1,8 @@
 body {
     font-family: 'Karla', sans-serif;
     color:#1D1D1D;
+	background-image: url("poolwater.gif");
+	bakground-repeat: repeat;
 }
 h5{
     font-weight: 700;
