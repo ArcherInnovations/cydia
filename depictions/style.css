@@ -5,7 +5,7 @@ body {
 	bakground-repeat: repeat;
 }
 h5{
-	font-family: 'Libre Franklin', sans serif;
+	font-family: 'Libre Franklin', sans-serif;
     font-weight: 900;
 	font-style: italic;
 }
@@ -30,7 +30,7 @@ h5{
 
 .link-item:hover {
     border: 1px solid #008080;
-    background-color: #0000ff;
+    background-color: #008080;
 }
 
 html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
@@ -38,7 +38,7 @@ html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
 }
 
 html.can-touch .link-item:active{ /* disable hover effect when input is touch */
-    background-color: #ff0000;
+    background-color: #008080;
 }
 
 .fa {
