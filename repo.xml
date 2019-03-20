@@ -3,7 +3,7 @@
 		<link>
 			<name>Donate?</name>
 			<url>https://paypal.me/archerinnovations</url>
-			<iconclass>fa fa-paypal-square</iconclass>
+			<iconclass>fa fa-paypal</iconclass>
 		</link>
 		<link>
 			<name>Checkout my Reddit!</name>
@@ -14,6 +14,11 @@
 			<name>Checkout my Github!</name>
 			<url>https://github.com/archerinnovations/cydia/</url>
 			<iconclass>fa fa-github-square</iconclass>
+		</link>
+				<link>
+			<name>Email</name>
+			<url>mailto:yoyoalamo@gmail.com</url>
+			<iconclass>fa fa-envelope-square</iconclass>
 		</link>
 	</footerlinks>
 </repo>
