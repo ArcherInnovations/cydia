@@ -5,7 +5,9 @@ body {
 	bakground-repeat: repeat;
 }
 h5{
-    font-weight: 700;
+	font-family: 'Libre Franklin', sans serif;
+    font-weight: 900;
+	font-style: italic;
 }
 .disable-hover {
     pointer-events: none;
