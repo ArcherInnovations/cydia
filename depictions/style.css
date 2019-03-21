@@ -11,8 +11,8 @@ body {
 }
 h5{
 	font-family: 'Libre Franklin', sans-serif;
-	/*font-weight: 900;
-	font-style: italic;*/
+	font-weight: 900;
+	font-style: italic;
 }
 .disable-hover {
     pointer-events: none;
