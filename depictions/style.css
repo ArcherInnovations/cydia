@@ -112,7 +112,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .window_actions {
   margin: 5px 9px;
-  line-height: 1;
+  line-height: 0.25;
   color: #000;
   font-size: 11px;
 }
