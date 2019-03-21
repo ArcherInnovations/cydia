@@ -24,13 +24,12 @@ h5{
     list-style-type: none;
     padding: 17px 15px;
     display: block;
-    color: #1D1D1D !important;
     text-align: left;
 }
 
 .link-item:hover {
-    border: 1px solid #008080;
-    background-color: #008080;
+    border: 1px solid #0000ff;
+    background-color: #ffffff;
 }
 
 html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
@@ -38,7 +37,7 @@ html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
 }
 
 html.can-touch .link-item:active{ /* disable hover effect when input is touch */
-    background-color: #008080;
+    background-color: #0000ff;
 }
 
 .fa {
