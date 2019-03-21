@@ -18,14 +18,14 @@
     body{margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
 	}
   .jumbotron{
-    	text-align:center; background:none;
+    	text-align:center; background:none; background-color: transparent !important;
       font-family: 'Libre Franklin',  sans-serif;
 	  font-style: italic;
 	  font-weight: 900;
-	  border: transparent !important;
+	  border-color: transparent !important;
   }
-  .container-fluid{
-  background:transparent !important; 
+  .container{
+  background-color: transparent !important; 
   border-color: transparent !important;
   }
   </style>
@@ -159,16 +159,16 @@
 
 <div id="packageInformation">
 
-	<div id="packageHeader" class="container-fluid" style="display:none">
+	<div id="packageHeader" class="container" style="display:none">
 		<div class="jumbotron">
 			<h5 id="packageName"></h5>
 		</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="container">
 	  <div id="compatibilityCheck" class="alert"></div>
 	</div>
-<div class="container-fluid">
+<div class="container">
 <div class="window">
   <div class="window_inner">
     <div class="window_heading">
@@ -191,7 +191,7 @@
 <div><br /></div>
 
 </div>
-<div class="container-fluid">
+<div class="container">
 <div class="window">
   <div class="window_inner">
     <div class="window_heading">
@@ -213,7 +213,7 @@
 
 <div><br /></div>
 
-<div class="container-fluid" id="dependenciesContainer">
+<div class="container" id="dependenciesContainer">
 <div class="window">
   <div class="window_inner">
     <div class="window_heading">
@@ -279,7 +279,7 @@
     }); // ready
 </script>
 
-<div class="container-fluid" id="contactInfo">
+<div class="container" id="contactInfo">
 <div class="window">
   <div class="window_inner">
     <div class="window_heading">
