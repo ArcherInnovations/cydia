@@ -51,12 +51,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     font-size:0.8em;
 }
 
-body {
-  background: #008080;
-}
-
 .window { 
-  width: 500px;
+  width: 100%;
   font-family: 'Arial',sans-serif;
   background: #c0c0c0;
   border: 1px solid;
