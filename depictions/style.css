@@ -74,10 +74,11 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
   margin: 2px 2px 0;
   padding: 1px 2px;
   color: #fff;
-  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd);
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
+  ///*original - #000080, #1084d0) another cool one - #5433ff, #20bdff, #a5fecb and another cool one - #12c2e9, #c471ed, #f64f59*/
 }
 
 .window_heading_icon {
