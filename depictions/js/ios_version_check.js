@@ -40,13 +40,14 @@ Twitter - @TimonOlsthoorn
  * TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *<span id="versionBadge" class="label label-info" style="float: right !important;"/>
  */
 
 // Adapted from https://github.com/tmnlsthrn/Lotus/blob/master/js/iosver.js
 
 
 // changed const to var for IE9/10 compatibity.
-var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! <div style="float: right;">✅</div>";
+var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! ✅";
 var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
 var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
