@@ -148,7 +148,8 @@ p {
     border-right-color: #000;
     border-bottom-color: #000;
 	float: right;
-	height: 15px;
+	height: 17px;
 	width: 18px;
 	margin-right: 3px;
+	vertical-align: middle;
 }
