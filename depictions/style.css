@@ -140,3 +140,14 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 p {
   margin: 0;
 }
+.windowbutton {
+	background: #c0c0c0;
+	border: 1px solid;
+    border-top-color: #dfdfdf;
+    border-left-color: #dfdfdf;
+    border-right-color: #000;
+    border-bottom-color: #000;
+	float: right;
+	height: 14px;
+	width: 14px;
+}
