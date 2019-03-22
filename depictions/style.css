@@ -70,7 +70,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 }
 
 .window_heading {
-  margin: 2px 2px 0;
+  margin: 2px 2px 2px;
   padding: 1px 2px;
   color: #fff;
   background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
