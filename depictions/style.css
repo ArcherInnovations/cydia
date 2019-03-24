@@ -127,6 +127,6 @@ p {
 .table-borderless td,
 .table-borderless th {
     border: none;
-	//border-radius: 0;
-	//border-color: transparent;
+	border-radius: 0;
+	border-color: transparent;
 }
