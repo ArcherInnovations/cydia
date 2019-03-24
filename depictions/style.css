@@ -153,3 +153,8 @@ p {
 	margin-right: 2px;
 	vertical-align: middle;
 }
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
