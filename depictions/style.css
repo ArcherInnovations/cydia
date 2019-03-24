@@ -124,9 +124,17 @@ p {
 	vertical-align: middle;
 }
 
-.table-borderless td,
-.table-borderless th {
-    border: none;
-	border-radius: 0;
 	border-color: transparent;
+}
+
+.entry ul, .entry ol{
+
+border-top: 0;
+
+}
+
+.entry li{
+
+border-bottom:0;
+
 }
