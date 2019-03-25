@@ -165,6 +165,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn,
 .tooltip-inner ,
 .popover-title,
 .label,
+.ul,
+.li,
+.list-group,
+.list-group-item,
 .resizable-textarea textarea {
   -webkit-border-top-left-radius: 0px;
   -webkit-border-top-right-radius: 0px;
