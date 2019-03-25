@@ -1,24 +1,16 @@
 <repo>
 	<footerlinks>
-<table>
 		<tr>
 			<td><a href=“https://paypal.me/archerinnovations”> <iconclass>fa fa-paypal</iconclass> Donate?</a></td>
 		</tr>
-</table>
-		<link>
-/*			<name>Checkout my Reddit!</name>
-			<url>https://www.reddit.com/user/ArcherInnovations</url>
-			<iconclass>fa fa-reddit-square</iconclass>
-		</link>
-		<link>
-			<name>Checkout my Github!</name>
-			<url>https://github.com/archerinnovations/cydia/</url>
-			<iconclass>fa fa-github-square</iconclass>
-		</link>
-				<link>
-			<name>Email</name>
-			<url>mailto:yoyoalamo@gmail.com</url>
-			<iconclass>fa fa-envelope-square</iconclass>
-		</link> */
+		<tr>
+			<td><a href=“https://www.reddit.com/user/ArcherInnovations”> <iconclass>fa fa-reddit-square</iconclass> Checkout my Reddit!/a></td>
+		</tr>
+		<tr>
+			<td><a href=“https://github.com/archerinnovations/cydia/”> <iconclass>fa fa-github-square</iconclass> Checkout my Github!</a></td>
+		</tr>
+		<tr>
+			<td><a href=“mailto:yoyoalamo@gmail.com”> <iconclass>fa fa-envelope-square</iconclass> Email</a></td>
+		</tr>
 	</footerlinks>
 </repo>
