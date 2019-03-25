@@ -1,12 +1,10 @@
 <repo>
 	<footerlinks>
-<table>
 		<tr>
 			<td><a href=“https://paypal.me/archerinnovations”> <iconclass>fa fa-paypal</iconclass> Donate?</a></td>
 		</tr>
-</table>
 		<link>
-/*			<name>Checkout my Reddit!</name>
+			<name>Checkout my Reddit!</name>
 			<url>https://www.reddit.com/user/ArcherInnovations</url>
 			<iconclass>fa fa-reddit-square</iconclass>
 		</link>
@@ -19,6 +17,6 @@
 			<name>Email</name>
 			<url>mailto:yoyoalamo@gmail.com</url>
 			<iconclass>fa fa-envelope-square</iconclass>
-		</link> */
+		</link>
 	</footerlinks>
 </repo>
