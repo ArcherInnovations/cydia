@@ -1,8 +1,10 @@
 <repo>
 	<footerlinks>
-		<tr>
-			<td><a href=“https://paypal.me/archerinnovations”> <iconclass>fa fa-paypal</iconclass> Donate?</a></td>
-		</tr>
+		<link>
+			<name>Donate?</name>
+			<url>https://paypal.me/archerinnovations</url>
+			<iconclass>fa fa-paypal</iconclass>
+		</link>
 		<link>
 			<name>Checkout my Reddit!</name>
 			<url>https://www.reddit.com/user/ArcherInnovations</url>
