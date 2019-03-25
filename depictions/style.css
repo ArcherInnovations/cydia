@@ -129,5 +129,5 @@ p {
 }
 
 li.borderless {
-  border-top: 0 none;
+  border-width: 0 none;
 }
