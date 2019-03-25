@@ -127,3 +127,7 @@ p {
 .table.no-border tr td, .table.no-border tr th {
   border-width: 0;
 }
+
+li.borderless {
+  border-top: 0 none;
+}
