@@ -178,6 +178,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn,
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  border: none !important;
 }
 
 @media (min-width: 768px) {
@@ -199,7 +200,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn,
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
-    
+  border: none !important;
 }
 }
 
