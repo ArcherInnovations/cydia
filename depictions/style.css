@@ -124,17 +124,6 @@ p {
 	vertical-align: middle;
 }
 
-	border-color: transparent;
-}
-
-.entry ul, .entry ol{
-
-border-top: 0;
-
-}
-
-.entry li{
-
-border-bottom:0;
-
+.table.no-border tr td, .table.no-border tr th {
+  border-width: 0;
 }
