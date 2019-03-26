@@ -104,7 +104,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
   border-left-color: #000;
   border-bottom-color: #dfdfdf;
   border-right-color: #dfdfdf;
-  //padding: 10px;
+  padding: 10px;
 }
 
 p {
