@@ -124,7 +124,3 @@ p {
 	vertical-align: middle;
 }
 
-.table.no-border tr td, .table.no-border tr th {
-  border-width: 0;
-}
-
