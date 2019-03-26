@@ -80,7 +80,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
   //original - #000080, #1084d0) another cool one - #5433ff, #20bdff, #a5fecb and another cool one - #12c2e9, #c471ed, #f64f59 another- #f7797d, #fbd786, #c6ffdd)
 }
 
-.original {
+.originalgradient {
   background: linear-gradient(to right, #000080, #1084d0) !important;
 }
 
