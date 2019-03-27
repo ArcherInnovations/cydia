@@ -108,19 +108,15 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		message = VERSION_CHECK_SUPPORTED,
 		isBad = false;
-		document.getElementById("img").src="supported.png";
 
 	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
 		isBad = true;
-		document.getElementById("img").src="needsupgrade.png";
 	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
 		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
-			document.getElementById("img").src="unsupported.png";
 		} else {
-			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString),
-			document.getElementById("img").src="unconfirmed.png";
+			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
 		}
 
 		isBad = true;
