@@ -107,7 +107,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		maxVersion = maxString ? parseVersionString(maxString) : null,
 
 		message = VERSION_CHECK_SUPPORTED,
-		isBad = false,
+		isBad = false;
 		document.getElementById("img").src="supported.png";
 
 	if (compareVersions(minVersion, osVersion) == 1) {
