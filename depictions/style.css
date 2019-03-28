@@ -53,20 +53,20 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .window { 
   width: 100%;
   font-family: 'Arial',sans-serif;
-  background: #26D838; //c0c0c0
+  background: #c0c0c0;
   border: 1px solid;
-  border-top-color: #1F7424;
-  border-left-color: #1F7424;
-  border-right-color: #217C26; //000
-  border-bottom-color: #217C26;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-right-color: #000
+  border-bottom-color: #000;
 }
 
 .window_inner {
   border: 1px solid;
-  border-top-color: #8FDF93;
-  border-left-color: #8FDF93;
-  border-right-color: #1A7E1F;
-  border-bottom-color: #1A7E1F;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
 }
 
 .window_heading {
@@ -105,10 +105,10 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .window_content {
   margin: 2px 2px 2px 2px;
   border: 1px solid;
-  border-top-color: #1A7E1F; //original is #808080
-  border-left-color: #1A7E1F;
-  border-bottom-color: #8FDF93; //fff
-  border-right-color: #8FDF93;
+  border-top-color: #808080;
+  border-left-color: #808080;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
   font-size: 13px;
 }
 
@@ -117,8 +117,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
   border: 1px solid;
   border-top-color: #000;
   border-left-color: #000;
-  border-bottom-color: #1F7424; //dfdfdf
-  border-right-color: #1F7424;
+  border-bottom-color: #dfdfdf;
+  border-right-color: #dfdfdf;
   //padding: 10px;
 }
 
@@ -132,7 +132,7 @@ p {
     border-left-color: #dfdfdf;
     border-right-color: #000;
     border-bottom-color: #000;
-	float: right;df
+	float: right;
 	height: 15px;
 	width: 18px;
 	margin-right: 2px;
