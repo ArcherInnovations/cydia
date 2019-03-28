@@ -55,8 +55,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
   font-family: 'Arial',sans-serif;
   background: #c0c0c0;
   border: 1px solid;
-  border-top-color: #dfdfdf;
-  border-left-color: #dfdfdf;
+  border-top-color: #1F7424;
+  border-left-color: #1F7424;
   border-right-color: #000;
   border-bottom-color: #000;
 }
@@ -65,8 +65,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
   border: 1px solid;
   border-top-color: #fff;
   border-left-color: #fff;
-  border-right-color: #808080;
-  border-bottom-color: #808080;
+  border-right-color: #1A7E1F;
+  border-bottom-color: #1A7E1F;
 }
 
 .window_heading {
@@ -105,8 +105,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .window_content {
   margin: 2px 2px 2px 2px;
   border: 1px solid;
-  border-top-color: #808080;
-  border-left-color: #808080;
+  border-top-color: #1A7E1F; //original is #808080
+  border-left-color: #1A7E1F;
   border-bottom-color: #fff;
   border-right-color: #fff;
   font-size: 13px;
@@ -117,8 +117,8 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
   border: 1px solid;
   border-top-color: #000;
   border-left-color: #000;
-  border-bottom-color: #dfdfdf;
-  border-right-color: #dfdfdf;
+  border-bottom-color: #1F7424; //dfdfdf
+  border-right-color: #1F7424;
   //padding: 10px;
 }
 
@@ -132,7 +132,7 @@ p {
     border-left-color: #dfdfdf;
     border-right-color: #000;
     border-bottom-color: #000;
-	float: right;
+	float: right;df
 	height: 15px;
 	width: 18px;
 	margin-right: 2px;
@@ -153,52 +153,4 @@ p {
 
 .check-unconfirmed {
 	
-}
-
-/*
- * Animation module with all animation code
- */
-.anim-text-flow,
-.anim-text-flow-hover:hover {
-  /*
-   * Animation variables
-   */
-  $animationSteps: 20;
-  $animationDuration: 50;
-  $animationElement: span;
-  $animationElementsCount: 100;
-  $delayBetweenLetters: 0.2;
-
-  /*
-   * Elements settings
-   */
-  #{$animationElement} {
-    animation-name: anim-text-flow-keys;
-    animation-duration: #{$animationDuration}s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-  }
-
-  /*
-   * Keyframe loop
-   */
-  @keyframes anim-text-flow-keys {
-    @for $i from 0 through $animationSteps {
-      #{percentage($i * (1 / $animationSteps))} {
-        color: hsla(random(365), 60, 60, 1);
-      }
-    }
-  }
-
-  /*
-   * Element animation delay loop
-   */
-  $totalDelayTime: $animationElementsCount * $delayBetweenLetters;
-
-  @for $i from 1 through $animationElementsCount {
-    #{$animationElement}:nth-of-type(#{$i}) {
-      animation-delay: #{($i * $delayBetweenLetters) - $totalDelayTime}s;
-    }
-  }
 }
