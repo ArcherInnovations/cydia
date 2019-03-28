@@ -53,20 +53,20 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .window { 
   width: 100%;
   font-family: 'Arial',sans-serif;
-  background: #c0c0c0;
+  background: #96e596;
   border: 1px solid;
-  border-top-color: #dfdfdf;
-  border-left-color: #dfdfdf;
-  border-right-color: #000
-  border-bottom-color: #000;
+  border-top-color: #c5f1c5;
+  border-left-color: #c5f1c5;
+  border-right-color: #38cd38;
+  border-bottom-color: #38cd38;
 }
 
 .window_inner {
   border: 1px solid;
-  border-top-color: #fff;
-  border-left-color: #fff;
-  border-right-color: #808080;
-  border-bottom-color: #808080;
+  border-top-color: #f5fcf5;
+  border-left-color: #f5fcf5;
+  border-right-color: #67d967; //808080
+  border-bottom-color: #67d967;
 }
 
 .window_heading {
@@ -105,20 +105,20 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 .window_content {
   margin: 2px 2px 2px 2px;
   border: 1px solid;
-  border-top-color: #808080;
-  border-left-color: #808080;
-  border-bottom-color: #fff;
-  border-right-color: #fff;
+  border-top-color: #67d967;
+  border-left-color: #67d967;
+  border-bottom-color: #f5fcf5; //fff
+  border-right-color: #f5fcf5;
   font-size: 13px;
 }
 
 .window_content_inner {
-  background: #fff;
+  background: #f5fcf5;
   border: 1px solid;
-  border-top-color: #000;
-  border-left-color: #000;
-  border-bottom-color: #dfdfdf;
-  border-right-color: #dfdfdf;
+  border-top-color: #38cd38; //000
+  border-left-color: #38cd38;
+  border-bottom-color: #c5f1c5; //dfdfdf
+  border-right-color: #c5f1c5;
   //padding: 10px;
 }
 
@@ -126,12 +126,12 @@ p {
   margin: 0;
 }
 .windowbutton {
-	background: #c0c0c0;
+	background: #96e596; //c0c0c0
 	border: 1px solid;
-    border-top-color: #dfdfdf;
-    border-left-color: #dfdfdf;
-    border-right-color: #000;
-    border-bottom-color: #000;
+    border-top-color: #c5f1c5;
+    border-left-color: #c5f1c5;
+    border-right-color: #38cd38;
+    border-bottom-color: #38cd38;
 	float: right;
 	height: 15px;
 	width: 18px;
