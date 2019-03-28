@@ -109,18 +109,58 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		message = VERSION_CHECK_SUPPORTED,
 		isBad = false;
 		document.getElementById("img").src="supported.png";
+		document.getElementById("check1").classList.remove("window");
+		document.getElementById("check2").classList.remove("window_inner");
+		document.getElementById("check3").classList.remove("window_heading");
+		document.getElementById("check4").classList.remove("window_content");
+		document.getElementById("check5").classList.remove("window_content_inner");
+		document.getElementById("check1").classList.add("window_green");
+		document.getElementById("check2").classList.add("window_inner_green");
+		document.getElementById("check3").classList.add("window_heading_green");
+		document.getElementById("check4").classList.add("window_content_green");
+		document.getElementById("check5").classList.add("window_content_inner_green");
 
 	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
 		isBad = true;
 		document.getElementById("img").src="needsupgrade.png";
+		document.getElementById("check1").classList.remove("window");
+		document.getElementById("check2").classList.remove("window_inner");
+		document.getElementById("check3").classList.remove("window_heading");
+		document.getElementById("check4").classList.remove("window_content");
+		document.getElementById("check5").classList.remove("window_content_inner");
+		document.getElementById("check1").classList.add("window_red");
+		document.getElementById("check2").classList.add("window_inner_red");
+		document.getElementById("check3").classList.add("window_heading_red");
+		document.getElementById("check4").classList.add("window_content_red");
+		document.getElementById("check5").classList.add("window_content_inner_red");
 	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
 		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString),
 			document.getElementById("img").src="unsupported.png";
+			document.getElementById("check1").classList.remove("window");
+			document.getElementById("check2").classList.remove("window_inner");
+			document.getElementById("check3").classList.remove("window_heading");
+			document.getElementById("check4").classList.remove("window_content");
+			document.getElementById("check5").classList.remove("window_content_inner");
+			document.getElementById("check1").classList.add("window_red");
+			document.getElementById("check2").classList.add("window_inner_red");
+			document.getElementById("check3").classList.add("window_heading_red");
+			document.getElementById("check4").classList.add("window_content_red");
+			document.getElementById("check5").classList.add("window_content_inner_red");
 		} else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString),
 			document.getElementById("img").src="unconfirmed.png";
+			document.getElementById("check1").classList.remove("window");
+			document.getElementById("check2").classList.remove("window_inner");
+			document.getElementById("check3").classList.remove("window_heading");
+			document.getElementById("check4").classList.remove("window_content");
+			document.getElementById("check5").classList.remove("window_content_inner");
+			document.getElementById("check1").classList.add("window_yellow");
+			document.getElementById("check2").classList.add("window_inner_yellow");
+			document.getElementById("check3").classList.add("window_heading_yellow");
+			document.getElementById("check4").classList.add("window_content_yellow");
+			document.getElementById("check5").classList.add("window_content_inner_yellow");
 		}
 
 		isBad = true;
