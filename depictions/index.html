@@ -58,7 +58,6 @@
 						$(source).find("otherVersions").text(),
 						function(message,isBad) {
 							$(element).html(message)
-							.addClass( (isBad?'alert-danger':''));
 						}
 					);
 					if(res==0) {$(element).hide()}
@@ -82,7 +81,6 @@
 					$("#descriptionList").append(
 						$("<a class='link-item list-group-item'>")
 							.attr("href","screenshots.html?p="+bundleid)
-							.text("Screenshots")
 					);
 				}
 			}
@@ -197,7 +195,7 @@
       <div class="window_content_inner" style="padding: 10px;">
         <table style="align: center">
 		<tr><td id="descriptionList"></td></tr>
-		<tr style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important;"><td id="screenshotsLink" style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;"></td></tr>
+		<tr><td id="screenshotsLink" style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;"><p style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;">Screenshots</p></td></tr>
 		</table>	
       </div>
     </div>
