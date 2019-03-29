@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'leviWindows', sans-serif;
-       src: url("LeviWindows.ttf") format("truetype");
+  font-family: 'leviWindows';
+       src: url('leviWindows.ttf') format("truetype");
 }
 
 @font-face {
-  font-family: 'win98', sans-serif;
-       src: url("win98.ttf") format("truetype");
+  font-family: 'win98';
+       src: url('win98.ttf') format("truetype");
 }
 
 body {
