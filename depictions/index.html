@@ -78,9 +78,7 @@
 						return
 					}
 					// create screenshots link
-					$("#descriptionList").append(
-						$("<a >")
-							.attr("href","screenshots.html?p="+bundleid)
+						$("#screenshotlink").attr("href","screenshots.html?p="+bundleid)
 					);
 				}
 			}
@@ -195,7 +193,7 @@
       <div class="window_content_inner" style="padding: 10px;">
         <table style="align: center">
 		<tr><td id="descriptionList"></td></tr>
-		<tr><td id="screenshotsLink" style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;"><p style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;">Screenshots</p></td></tr>
+		<tr><a id="screenshotlink"><td id="screenshotsLink" style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;"><p style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;">Screenshots</p></td></tr>
 		</table>	
       </div>
     </div>
