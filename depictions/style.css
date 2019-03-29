@@ -223,7 +223,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .window_red { 
   width: 100%;
-  font-family: 'Arial',sans-serif;
+  font-family: 'win98',sans-serif;
   background: #ff8e88;
   border: 1px solid;
   border-top-color: #ffc6c3;
@@ -361,7 +361,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .window_orange { 
   width: 100%;
-  font-family: 'Arial',sans-serif;
+  font-family: 'win98',sans-serif;
   background: #ffcb82;
   border: 1px solid;
   border-top-color: #ffe4bd;
@@ -421,6 +421,75 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     border-left-color: #ffe4bd;
     border-right-color: #ff9b0c;
     border-bottom-color: #ff9b0c;
+	float: right;
+	height: 15px;
+	width: 18px;
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+.window_ylw { 
+  width: 100%;
+  font-family: 'win98',sans-serif;
+  background: #ffe082;
+  border: 1px solid;
+  border-top-color: #ffefbd;
+  border-left-color: #ffefbd;
+  border-right-color: #ffc40c;
+  border-bottom-color: #ffc40c;
+}
+
+.window_inner_ylw {
+  border: 1px solid;
+  border-top-color: #fffdf8;
+  border-left-color: #fffdf8;
+  border-right-color: #ffd247;
+  border-bottom-color: #ffd247;
+}
+
+.window_heading_ylw {
+  margin: 2px 2px 2px;
+  padding: 2px 2px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.window_actions_ylw {
+  margin: 5px 9px;
+  line-height: 0.10;
+  color: #ffc40c;
+  font-size: 11px;
+}
+
+.window_content_ylw {
+  margin: 2px 2px 2px 2px;
+  border: 1px solid;
+  border-top-color: #ffd247;
+  border-left-color: #ffd247;
+  border-bottom-color: #fffdf8;
+  border-right-color: #fffdf8;
+  font-size: 13px;
+}
+
+.window_content_inner_ylw {
+  background: #fffdf8;
+  border: 1px solid;
+  border-top-color: #ffc40c;
+  border-left-color: #ffc40c;
+  border-bottom-color: #ffefbd;
+  border-right-color: #ffefbd;
+  //padding: 10px;
+}
+
+.windowbutton_ylw {
+	background: #ffe082;
+	border: 1px solid;
+    border-top-color: #ffefbd;
+    border-left-color: #ffefbd;
+    border-right-color: #ffc40c;
+    border-bottom-color: #ffc40c;
 	float: right;
 	height: 15px;
 	width: 18px;
