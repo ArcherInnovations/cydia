@@ -76,7 +76,7 @@
         ,"#descriptionList"	:
 			{"type":"list"
 				,"source" :"package>descriptionlist>description"
-				,"paragraphElement"	: "<li class='list-group-item'>"
+				,"paragraphElement"	: "<span>"
 				,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
 			}
         ,"#screenshotsLink"	:
@@ -201,10 +201,8 @@
     </div>
     <div class="window_content">
       <div class="window_content_inner" style="padding: 10px;">
-        <table style="align: center">
-		<tr><td id="descriptionList"></td></tr>
-		<tr><a id="screenshotlink"><td id="screenshotsLink" style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;"><p style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;">Screenshots</p></td></tr>
-		</table>	
+		<div><span id="descriptionList"></span></div>
+		<div><span id="screenshotsLink" style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;"><p style="background: linear-gradient(to right, #f7797d, #fbd786, #c6ffdd) !important; background-clip: text; text-fill-color: transparent;"><a id="screenshotlink">Screenshots</a></p></span></div>	
       </div>
     </div>
   </div>
