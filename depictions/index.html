@@ -77,7 +77,7 @@
         ,"#descriptionList"	:
 			{"type":"list"
 				,"source" :"package>descriptionlist>description"
-				,"paragraphElement"	: "<span>"
+				,"paragraphElement"	: "<li class='list-group-item'>"
 				,"emptyListCallback":function(e){$("#descriptionPanel").hide()}
 			}
         ,"#screenshotsLink"	:
@@ -101,7 +101,7 @@
 				,"paragraphElement"	: "<li class='list-group-item'>"
 				,"emptyListCallback":function(e){$("#changesList").hide()}
 			}
-		,"#changelogLink" :
+		,"#changelogLink"  :
             {"type":"custom"
                 ,"source" :"package>screenshots>screenshot"
                 ,"render":function(element, source){
