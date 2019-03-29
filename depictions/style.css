@@ -1,13 +1,3 @@
-@font-face {
-  font-family: 'leviWindows';
-       src: url('levi.ttf') format("truetype");
-}
-
-@font-face {
-  font-family: 'win98';
-       src: url('win98.ttf') format("truetype");
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     color:#1D1D1D;
