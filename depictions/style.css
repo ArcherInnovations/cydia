@@ -303,7 +303,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
 .window_inner_yellow {
   border: 1px solid;
-  border-top-color: #fffff6
+  border-top-color: #fffff6;
   border-left-color: #fffff6;
   border-right-color: #fcfc49;
   border-bottom-color: #fcfc49;
