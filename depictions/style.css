@@ -368,3 +368,72 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	margin-right: 2px;
 	vertical-align: middle;
 }
+
+.window_orange { 
+  width: 100%;
+  font-family: 'Arial',sans-serif;
+  background: #ffcb82;
+  border: 1px solid;
+  border-top-color: #ffe4bd;
+  border-left-color: #ffe4bd;
+  border-right-color: #ff9b0c;
+  border-bottom-color: #ff9b0c;
+}
+
+.window_inner_orange {
+  border: 1px solid;
+  border-top-color: #fffcf8;
+  border-left-color: #fffcf8;
+  border-right-color: #ffb347;
+  border-bottom-color: #ffb347;
+}
+
+.window_heading_orange {
+  margin: 2px 2px 2px;
+  padding: 2px 2px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.window_actions_orange {
+  margin: 5px 9px;
+  line-height: 0.10;
+  color: #ff9b0c;
+  font-size: 11px;
+}
+
+.window_content_orange {
+  margin: 2px 2px 2px 2px;
+  border: 1px solid;
+  border-top-color: #ffb347;
+  border-left-color: #ffb347;
+  border-bottom-color: #fffcf8;
+  border-right-color: #fffcf8;
+  font-size: 13px;
+}
+
+.window_content_inner_orange {
+  background: #fffcf8;
+  border: 1px solid;
+  border-top-color: #ff9b0c;
+  border-left-color: #ff9b0c;
+  border-bottom-color: #ffe4bd;
+  border-right-color: #ffe4bd;
+  //padding: 10px;
+}
+
+.windowbutton_orange {
+	background: #ffcb82;
+	border: 1px solid;
+    border-top-color: #ffe4bd;
+    border-left-color: #ffe4bd;
+    border-right-color: #ff9b0c;
+    border-bottom-color: #ff9b0c;
+	float: right;
+	height: 15px;
+	width: 18px;
+	margin-right: 2px;
+	vertical-align: middle;
+}
