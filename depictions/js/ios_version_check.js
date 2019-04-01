@@ -119,7 +119,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		document.getElementById("check3").classList.add("window_heading_green");
 		document.getElementById("check4").classList.add("window_content_green");
 		document.getElementById("check5").classList.add("window_content_inner_green");
-		document.getElementById("check5").classList.add("check-success");
+		document.getElementById("compatibilityCheck").classList.add("check-success");
 
 	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
