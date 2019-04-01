@@ -137,7 +137,7 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 }
 
 .check-success {
-	
+	color: #38cd38;
 }
 
 .check-needsupgrade {
