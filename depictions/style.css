@@ -508,6 +508,6 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
     animation-name: move;
     background-image: linear-gradient(to right, #fe8a71, #f6cd61, #3da4ab, #0e9aa7, #fe8a71);
     background-size: 200% auto;
-\\    -webkit-background-clip: text;
-\\    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
