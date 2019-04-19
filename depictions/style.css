@@ -495,39 +495,3 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 	margin-right: 2px;
 	vertical-align: middle;
 }
-
-.ignitionText {
-    animation: move 2s linear infinite;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: move;
-    background-image: linear-gradient(to right, #fe8a71, #f6cd61, #3da4ab, #0e9aa7, #fe8a71);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.ignitionText2 {
-    margin-top: 10px;
-    animation: move 2s linear infinite;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: move;
-    background-image: linear-gradient(to right, #fe8a71, #f6cd61, #3da4ab, #0e9aa7, #fe8a71);
-    background-size: 200% auto;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
