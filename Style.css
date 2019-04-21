@@ -12,11 +12,6 @@ header {
     color: #1D1D1D;
 }
 
-header .intromsg {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
 header img {
     display: block;
     margin: 0 auto 20px;
@@ -29,51 +24,23 @@ header img {
         max-width: 30%; left: 35%;
         margin-top: 6%;
     }
-    header .intromsg {
-        padding-top: 70px;
-        padding-bottom: 50px;
-    }
-
-    header .repo {
-        padding-top:20px;
-        font-size: 3.4em;
-    }
-
-    header .donation {
-        padding-top: 0px;
-        font-size: 1em;
-    }
-}
-
-header .donation {
-    display: block;
-    padding-top:0px;
-    font-family: "Open Sans", sans-serif;
-    text-transform: none;
-    font-size: 1.2em;
-}
-
 
 header .btn{
     padding-top:10px;
 }
 
 .btn-outline {
-    color:#1D1D1D;
     font-size: 1.2em;
-    border: solid 1.5px #1D1D1D;
-    background: transparent;
-    transition: all 0.3s ease-in-out;
     margin-top: 15px;
 }
 
-.btn-outline:hover,
+/*.btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
     color: white;
     background:#1D1D1D;
-    border: solid 1.5px white;
+    border: solid 1.5px white; */
 }
 
 .btn-social {
