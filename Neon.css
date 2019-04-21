@@ -3,8 +3,7 @@
   --neon-text-color: #f40;
   --neon-border-color: #08f;
 }
-
-h1 {
+.neon {
   color: #fff;
   padding: 4rem 6rem 5.5rem;
   border: 0.4rem solid #fff;
