@@ -3,6 +3,7 @@
   --neon-border-color: #08f;
 }
 .neon {
+  padding: 10px 10px 10px;
   color: #fff;
   border: 0.4rem solid #fff;
   border-radius: 2rem;

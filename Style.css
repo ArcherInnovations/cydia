@@ -25,10 +25,6 @@ header img {
         margin-top: 6%;
     }
 
-header .btn{
-    padding-top:10px;
-}
-
 .btn-outline {
     font-size: 1.2em;
     margin-top: 15px;
@@ -45,7 +41,6 @@ header .btn{
 
 .btn-social {
     display: inline-block;
-    padding-top:2px;
     height: 50px;
     width: 50px;
     border: 1.5px solid #1D1D1D;
