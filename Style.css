@@ -8,15 +8,6 @@ body {
 
 header {
     text-align: center;
-    background: none;
-    color: #1D1D1D;
-}
-
-header img {
-    display: block;
-    margin: 0 auto 20px;
-    max-width: 40%; left: 30%;
-    margin-top: 6%;
 }
 
 @media (min-width: 768px) {
