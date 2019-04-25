@@ -7,9 +7,9 @@
 .glowpink {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowpink 1s ease-in-out infinite alternate;
+  -moz-animation: glowpink 1s ease-in-out infinite alternate;
+  animation: glowpink 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glowpink {
