@@ -24,9 +24,9 @@
 .glowred {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowred 1s ease-in-out infinite alternate;
+  -moz-animation: glowred 1s ease-in-out infinite alternate;
+  animation: glowred 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glowred {
@@ -41,9 +41,9 @@
 .gloworange {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: gloworange 1s ease-in-out infinite alternate;
+  -moz-animation: gloworange 1s ease-in-out infinite alternate;
+  animation: gloworange 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes gloworange {
@@ -58,9 +58,9 @@
 .glowyellow {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowyellow 1s ease-in-out infinite alternate;
+  -moz-animation: glowyellow 1s ease-in-out infinite alternate;
+  animation: glowyellow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glowyellow {
@@ -75,9 +75,9 @@
 .glowgreen1 {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowgreen1 1s ease-in-out infinite alternate;
+  -moz-animation: glowgreen1 1s ease-in-out infinite alternate;
+  animation: glowgreen1 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glowgreen1 {
@@ -92,9 +92,9 @@
 .glowgreen2 {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowgreen2 1s ease-in-out infinite alternate;
+  -moz-animation: glowgreen2 1s ease-in-out infinite alternate;
+  animation: glowgreen2 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glowgreen2 {
@@ -109,9 +109,9 @@
 .glowblue {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowblue 1s ease-in-out infinite alternate;
+  -moz-animation: glowblue 1s ease-in-out infinite alternate;
+  animation: glowblue 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glowblue {
@@ -126,9 +126,9 @@
 .glowpurple {
   color: #fff;
   text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  -webkit-animation: glowpurple 1s ease-in-out infinite alternate;
+  -moz-animation: glowpurple 1s ease-in-out infinite alternate;
+  animation: glowpurple 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glowpurple {
