@@ -6,6 +6,9 @@
 
 .glowpink {
   color: #fff;
+  padding: 10px 10px 10px;
+  border: 0.4rem solid #fff;
+  border-radius: 2rem;
   text-align: center;
   -webkit-animation: glowpink 1s ease-in-out infinite alternate;
   -moz-animation: glowpink 1s ease-in-out infinite alternate;
