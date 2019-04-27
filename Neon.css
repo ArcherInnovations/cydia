@@ -4,6 +4,18 @@
   src: url('clip.woff') format("woff");
 }
 
+@font-face {
+  font-family: neonchin;
+  src: url('neonchin.ttf') format("true type");
+  src: url('neonchin.woff') format("woff");
+}
+
+@font-face {
+  font-family: neonchin;
+  src: url('neonjap.ttf') format("true type");
+  src: url('neonjap.woff') format("woff");
+}
+
 .glowpink {
   color: #fff;
   padding: 10px 10px 10px;
