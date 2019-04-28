@@ -38,9 +38,9 @@ to {
 }
 
 .glowpink:hover {
-		  -webkit-animation: glowred 1s ease-in-out infinite alternate;
-  -moz-animation: glowred 1s ease-in-out infinite alternate;
-  animation: glowred 1s ease-in-out infinite alternate;
+		  -webkit-animation: glowpink 1s ease-in-out infinite alternate;
+  -moz-animation: glowpink 1s ease-in-out infinite alternate;
+  animation: glowpink 1s ease-in-out infinite alternate;
   }
 
 .glowred {
