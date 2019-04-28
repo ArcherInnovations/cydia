@@ -5,13 +5,7 @@
 }
 
 @font-face {
-  font-family: neonchin;
-  src: url('neonchin.ttf') format("true type");
-  src: url('neonchin.woff') format("woff");
-}
-
-@font-face {
-  font-family: neonjap;
+  font-family: neonasi;
   src: url('neonjap.ttf') format("true type");
   src: url('neonjap.woff') format("woff");
 }
