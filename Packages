@@ -18,41 +18,13 @@ Name: HyperDock
 Depends: com.archerinnovations.repoicons
 Version: 1.0
 Architecture: iphoneos-arm
-Description: An example package for testing out our personal Cydia repository
+Description: Most Customizeable Dock/App Container widget ever.
 Filename: ./debs/com.archerinnovations.hyperdock_1.0_iphoneos-arm.deb
-MD5sum: 1ebf69d6444150b2268d40f4f325c2e4
-SHA1: 85d80fc6d4e2c7c3e792110b2520866166cdb723
-SHA256: 16c0f44361fce4bb942f254db4b7d3ac8af700fe3ee58672bdbd2577b287c429
-Size: 2112
+MD5sum: d703f8bc3c99c7b9f24d66bedf6ab65e
+SHA1: 165175715b2b146ff48df342a86f6a3893770c94
+SHA256: cd5a5939d44c8c36ba7de5fa00118d59ec6ff90b3841aa8ba0acd86a0b009dfc
+Size: 2336
 Depiction: https://archerinnovations.github.io/cydia/depictions/?p=com.archerinnovations.hyperdock
 Maintainer: Archer <yoyoalamo@gmail.com>
 Author: Archer <yoyoalamo@gmail.com>
 Section: XenWidgets
-
-Package: com.archerinnovations.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Archer <yoyoalamo@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs/com.archerinnovations.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Archer <yoyoalamo@gmail.com>
-Depiction: https://archerinnovations.github.io/cydia/depictions/?p=com.archerinnovations.newpackage
-
-Package: com.archerinnovations.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Archer <yoyoalamo@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.archerinnovations.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Archer <yoyoalamo@gmail.com>
-Depiction: https://archerinnovations.github.io/cydia/depictions/?p=com.archerinnovations.oldpackage
