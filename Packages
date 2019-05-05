@@ -18,7 +18,7 @@ Name: HyperDock
 Depends: com.archerinnovations.repoicons
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Most Customizeable Dock/App Container widget ever.
+shortDescription: Most Customizeable Dock/App Container widget ever.
 Filename: ./debs/com.archerinnovations.hyperdock_1.0_iphoneos-arm.deb
 MD5sum: d703f8bc3c99c7b9f24d66bedf6ab65e
 SHA1: 165175715b2b146ff48df342a86f6a3893770c94
